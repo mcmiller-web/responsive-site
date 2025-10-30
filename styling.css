@@ -18,10 +18,10 @@
     object-fit: cover;
 }
 
-.img-box p{
+.image-text {
     font-family: Limelight, sans-serif;
     text-align: center;
     margin: 8px auto 24px;
-    max-width: 240px;
+    max-width: 270px;
 }
 
