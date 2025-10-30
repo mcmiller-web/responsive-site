@@ -25,3 +25,27 @@
     max-width: 270px;
 }
 
+@media only screen and (min-width: 1024px){
+    .image-box {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+        justify-items: center;
+        align-items: start;
+    }
+
+    .image-box img {
+        width: 240px;
+        height: 240px;
+    }
+
+    .image-text {
+        max-width: 240px;
+        text-align: center;
+    }
+
+    .image-pair {
+        text-align: center;
+    }
+}
+
